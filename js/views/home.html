@@ -10,5 +10,18 @@
 			<button type="submit" class="btn btn-primary">Suggest</button>
 		</form>
 	</div>
-	
+	 <div class="comments">
+
+        <p>
+          <a href="#/suggestion/{{ post.id }}">
+        Comments</a>
+        <div ng-repeat="comment in post.comments"><span> - "{{ comment.body }}"</span></div>
+        </p>
+      </a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
 
