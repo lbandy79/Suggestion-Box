@@ -3,22 +3,22 @@ app.factory('suggestions', [function() {
         posts: [{
                 title: 'Free pizza at club meetings',
                 upvotes: 15,
-                comments: [],
+                comments: []
             },
             {
                 title: 'End all club emails with Laffy Taffy jokes',
                 upvotes: 9,
-                comments: [],
+                comments: []
             },
             {
                 title: 'Retrofit water fountain with Gatorade',
                 upvotes: 7,
-                comments: [],
+                comments: []
             },
             {
                 title: 'Sing Bon Jovi Living on a Prayer halfway through meetings',
                 upvotes: 3,
-                comments: [],
+                comments: []
             },
         ]
     };

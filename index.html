@@ -1,35 +1,20 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <title>Suggestion Box</title>
-    <!-- Bootstrap -->
-    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Angular Library -->
-    <script src="js/vendor/angular.min.js"></script>
+<title>Suggestion Box</title>
+<!-- Bootstrap -->
+<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+<!-- Angular Library -->
+<script src="js/vendor/angular.min.js"></script>
+<script src="https://code.angularjs.org/1.2.28/angular-route.min.js"></script>
 </head>
-
-<body ng-app="SuggestionBox" ng-controller="HomeController">
-    <form style="margin-top: 50px" ng-repeat="post in posts">
-		<h1>Submit Your Suggestion</h1>
-		<h2> {{ post.title }}</h2>
-		<h4> Votes: {{ post.upvotes }} </h4>
-		<div class="form-group">
-			<input class="form-control" placeholder="Great ideas here" type="text">
-		</div><button class="btn btn-primary" type="submit">Suggest</button>
-		<p><span class="glyphicon glyphicon-plus-sign" ng-click="upVote($index)"></span> Upvotes: {{post.upvotes}}</p>
-	</form>
-	
-
-    <!-- Modules -->
-    <script src="js/app.js"></script>
-
-    <!-- Controllers -->
-    <script src="js/controllers/HomeController.js"></script>
-
-    <!-- Services -->
-    <script src="js/services/demos.js"></script>
-
+<body ng-app="SuggestionBox" >
+<div ng-view></div>
+<!-- Modules -->
+<script src="js/app.js"></script>
+<!-- Controllers -->
+<script src="js/controllers/HomeController.js"></script>
+<!-- Services -->
+<script src="js/services/suggestions.js"></script>
 </body>
-
 </html>
