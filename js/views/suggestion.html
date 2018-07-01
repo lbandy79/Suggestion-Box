@@ -1,17 +1,10 @@
 <div class="suggestion">
   <h3>{{ post.title }}</h3>
-
     <div class="comments">
       <div class="container" ng-repeat="comment in post.comments">
         <span>"{{ comment.body }}"</span>
-
-          
           <span class="glyphicon glyphicon-plus-sign" ng-click="upVote(comment)"></span>
-
           {{ comment.upvotes }}
-
-
-
       </div>
   </div>
 
