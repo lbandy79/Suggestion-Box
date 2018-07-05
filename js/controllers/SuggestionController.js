@@ -15,8 +15,8 @@ app.controller('SuggestionController', [
       });
     };
 
-    $scope.upvoteComment = function(comment) {
-      $scope.post.comments.upvotes += 1;
+    $scope.upvoteComment = function(index) {
+      $scope.post.comments[index].upvotes += 1;
     };
 
   }]);
