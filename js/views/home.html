@@ -1,4 +1,11 @@
-<h1>Submit Your Suggestion</h1>
+<div class="row">
+	<div class="col-md-3">
+         <img class="thumbnail" src="http://d1marr3m5x4iac.cloudfront.net/images/block/I0-001/017/395/883-1.jpeg_/wwe-raw-83.jpeg"alt="WWE Logo"/>
+ 	</div>
+    <div>
+        <h1 class="col-md-8">Submit Your Suggestions</h1>
+    </div>
+</div>
 	<div ng-repeat="post in posts | orderBy: '-upvotes'" style="margin-top: 50px">
 		<h2>{{ post.title }}</h2>
 		<p><span class="glyphicon glyphicon-plus-sign" ng-click="upVote($index)"></span> Upvotes: {{post.upvotes}}</p>

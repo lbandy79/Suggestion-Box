@@ -1,7 +1,7 @@
 <div class="suggestion">
   <h3>{{ post.title }}</h3>
     <div class="comments">
-      <div class="container" ng-repeat="comment in post.comments">
+      <div class="container" ng-repeat="comment in post.comments | orderBy: '-upvotes'">
         <span>"{{ comment.body }}"</span>
           <span class="glyphicon glyphicon-plus-sign" ng-click="upvoteComment($index)"></span>
           {{ comment.upvotes }}

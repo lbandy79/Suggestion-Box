@@ -1,22 +1,22 @@
 app.factory('suggestions', [function() {
     var suggestions = {
         posts: [{
-                title: 'Free pizza at club meetings',
+                title: 'Can you have The Undertaker tombstone a guy dressed as a Thanksgiving turkey?',
                 upvotes: 15,
                 comments: []
             },
             {
-                title: 'End all club emails with Laffy Taffy jokes',
+                title: 'Fire Roman Reigns',
                 upvotes: 9,
                 comments: []
             },
             {
-                title: 'Retrofit water fountain with Gatorade',
+                title: 'Have a womens wrestling show.',
                 upvotes: 7,
                 comments: []
             },
             {
-                title: 'Sing Bon Jovi Living on a Prayer halfway through meetings',
+                title: 'Bring back the attitude era',
                 upvotes: 3,
                 comments: []
             },
