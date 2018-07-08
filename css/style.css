@@ -2,3 +2,50 @@ body {
     color: #dcdcdc;
     background-color: #000000;
 }
+
+.btn {
+    color: #fff;
+    background-color: #ab0909;
+    border-color: #a2a2a2;
+}
+
+.btn-primary {
+	border-radius: 4px 0px 0px 4px;
+}
+
+.row {
+	display: flex;
+	width: 750px;
+}
+
+@font-face {
+   font-family: Rawhide;
+   src: url(Rawhide.otf);
+}
+
+h1 {
+	font-family: Rawhide;
+	font-size: 50px;
+    color: #e20505;
+}
+
+h3 {
+	margin-left: 15px;
+}
+
+h4 {
+	font-family: Rawhide;
+	font-size: 25px;
+    color: #e20505;
+}
+
+form, .suggestion, .ng-scope {
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+img {
+	margin-top: 20px;
+}
+
+
