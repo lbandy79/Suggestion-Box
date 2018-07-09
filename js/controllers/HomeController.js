@@ -1,5 +1,4 @@
 app.controller('HomeController', ['$scope', 'suggestions', function($scope, suggestions) {
-	$scope.helloWorld = "Hello, AngularJS!";
 	$scope.posts = suggestions.posts;
 	$scope.addSuggestion = function() {
 		//if input empty, don't submit
