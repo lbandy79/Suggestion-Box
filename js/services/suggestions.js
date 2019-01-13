@@ -6,7 +6,7 @@ app.factory('suggestions', [function() {
                 comments: []
             },
             {
-                title: 'Fire Roman Reigns',
+                title: 'Bring back CM Punk',
                 upvotes: 9,
                 comments: []
             },
